@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"sourcepawnLanguageServer.sourcemod_home": "d:/Development/Git Repo/HL2DM-Extra/include"
+	}
+}
