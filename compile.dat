@@ -1,8 +1,12 @@
 [HLExtra-Main.sp]
-Age=1353226098
+Age=1354148183
 [HLExtra-Chat.sp]
 Age=1352895445
 [HLExtra-Data.sp]
 Age=1352892514
 [HLExtra-Hud.sp]
 Age=1352895452
+[HLExtra-Player.sp]
+Age=1354145350
+[HLExtra-KillAmounts.sp]
+Age=1354142230
