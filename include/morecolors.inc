@@ -565,7 +565,7 @@ stock Handle:InitColorTrie() {
 	SetTrieValue(hTrie, "goldenrod", 0xDAA520);
 	SetTrieValue(hTrie, "gray", 0xCCCCCC); // same as spectator team color
 	SetTrieValue(hTrie, "grey", 0xCCCCCC);
-	SetTrieValue(hTrie, "green", 0x3EFF3E);
+	SetTrieValue(hTrie, "green", 0x5DD476);
 	SetTrieValue(hTrie, "greenyellow", 0xADFF2F);
 	SetTrieValue(hTrie, "haunted", 0x38F3AB); // same as Haunted item quality in TF2
 	SetTrieValue(hTrie, "honeydew", 0xF0FFF0);
@@ -670,5 +670,10 @@ stock Handle:InitColorTrie() {
 	SetTrieValue(hTrie, "whitesmoke", 0xF5F5F5);
 	SetTrieValue(hTrie, "yellow", 0xFFFF00);
 	SetTrieValue(hTrie, "yellowgreen", 0x9ACD32);
+	SetTrieValue(hTrie, "main", 0x5DBCD4);
+	SetTrieValue(hTrie, "prefix", 0xE44F28);
+	SetTrieValue(hTrie, "bad", 0xD26060);
+	SetTrieValue(hTrie, "good", 0x1BD0D0);
+	SetTrieValue(hTrie, "sirtiggs", 0xFF8100);
 	return hTrie;
 }

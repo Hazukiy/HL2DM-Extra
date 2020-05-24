@@ -2,10 +2,14 @@ int _playerKills[MAXPLAYERS + 1];
 int _playerDeaths[MAXPLAYERS + 1];
 int _playerMoney[MAXPLAYERS + 1];
 int _playerTimePlayed[MAXPLAYERS + 1];
+int _playerModel[MAXPLAYERS + 1];
 bool _isAdmin[MAXPLAYERS + 1];
 bool _useChatSound[MAXPLAYERS + 1];
 bool _isGodmode[MAXPLAYERS + 1];
+
 Handle _playerHud[MAXPLAYERS + 1];
+Handle _loyalityCheck[MAXPLAYERS + 1];
+Handle _listener[MAXPLAYERS + 1];
 
 methodmap Player 
 {	
@@ -37,6 +41,11 @@ methodmap Player
 		public set(int value) { _playerTimePlayed[this.index] = value; }
 	}
 
+	property int Model {
+		public get() { return _playerModel[this.index]; }
+		public set(int value) { _playerModel[this.index] = value; }
+	}
+
 	property bool IsAdmin {
 		public get() { return _isAdmin[this.index]; }
 		public set(bool value) { _isAdmin[this.index] = value; }
@@ -55,5 +64,15 @@ methodmap Player
 	property Handle Hud {
 		public get() { return _playerHud[this.index]; }
 		public set(Handle value) { _playerHud[this.index] = value; }
+	}
+
+	property Handle LoyalityCheck {
+		public get() { return _loyalityCheck[this.index]; }
+		public set(Handle value) { _loyalityCheck[this.index] = value; }
+	}
+
+	property Handle Listener {
+		public get() { return _listener[this.index]; }
+		public set(Handle value) { _listener[this.index] = value; }
 	}
 }
